@@ -21,12 +21,12 @@ public class MyCommandLineRunner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         //加载数据到缓存
-        Student student=new Student();
+      /*  Student student=new Student();
         student.setId(111111);
         student.setStuname("testRunner");
         student.setSex("xxx");
 
         redisTemplate.opsForValue().set("testRunner",student);
-        log.info("Runner :"+"加载testRunner 的redis缓存");
+        log.info("Runner :"+"加载testRunner 的redis缓存");*/
     }
 }

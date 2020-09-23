@@ -56,4 +56,11 @@ public class helloController {
       log.info("请求参数："+req);
         return studentservice.getRespone(req);
     }
+
+    @RequestMapping(value="/gitHub", method = RequestMethod.GET)
+    public String testGitHub(){
+
+
+        return "testGithub";
+    }
 }
