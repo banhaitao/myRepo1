@@ -59,7 +59,7 @@ public class helloController {
 
     @RequestMapping(value="/gitHub", method = RequestMethod.GET)
     public String testGitHub(){
-
+        log.info("testgittogithub");
 
         return "testGithub";
     }
